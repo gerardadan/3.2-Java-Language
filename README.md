@@ -29,9 +29,3 @@ Per a executar aquest projecte, es requereix:
 - Un entorn de desenvolupament com **IntelliJ IDEA, Eclipse o VS Code** amb extensió per a Java
 - Coneixements bàsics de **Java** i **col·leccions**
 
-### Per compilar i executar el programa des de terminal:
-```sh
-javac Month.java Restaurant.java Main.java
-java Main
-```
-
