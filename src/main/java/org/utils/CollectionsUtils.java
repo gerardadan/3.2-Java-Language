@@ -2,7 +2,7 @@ package org.utils;
 
 import java.util.*;
 
-public class HashMapUtils {
+public class CollectionsUtils {
 
     public static <T> Object randomKeyValuePair(HashMap<T, T> hashMap) throws Exception{
         Random randomNum = new Random();
@@ -29,8 +29,10 @@ public class HashMapUtils {
         return hashMap;
     }
 
-    public void checkMapEntryIsEmpty(){
+    public static <T> TreeSet convertTreeSet(HashSet<T> hashSet){
+        TreeSet<T> treeSet = new TreeSet<>(hashSet);
 
+        return  treeSet;
     }
 
 }

@@ -2,9 +2,7 @@ package org.restaurant;
 
 import org.utils.Print;
 
-import java.util.HashSet;
-import java.util.Objects;
-import java.util.Scanner;
+import java.util.*;
 
 public class RestaurantList {
 
@@ -22,7 +20,10 @@ public class RestaurantList {
     }
 
     public static HashSet<Restaurant> sortRestaurant(HashSet<Restaurant> restaurants){
+        ArrayList<Restaurant> list = new ArrayList<Restaurant>(restaurants);
+        //Collections.sort(list);
 
+        TreeSet<Restaurant> restaurantsTS = new TreeSet<>(restaurants);
 
         return restaurants;
     }
