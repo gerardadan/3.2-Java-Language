@@ -1,31 +1,30 @@
-# 📄 Descripció - Enunciat de l'exercici
+#  Description - Exercise Statement
 
-## Nivell 2 - Exercici 1: Control de duplicats en HashSet
+## Level 2 - Exercise 1: Duplicate Control in HashSet
 
-1. Es crea una classe **Restaurant** amb dos atributs:
-   - `nom (String)`
-   - `puntuació (int)`
-2. Es crea un **HashSet** per emmagatzemar objectes `Restaurant`.
-3. Es defineixen els **mètodes equals() i hashCode()** per impedir que es puguin introduir **restaurants amb el mateix nom i la mateixa puntuació**.
-4. Es permet restaurants amb el mateix nom però amb **puntuacions diferents**.
+1. A **Restaurant** class is created with two attributes:
+    - `name (String)`
+    - `rating (int)`
+2. A **HashSet** is created to store `Restaurant` objects.
+3. The **equals() and hashCode() methods** are defined to prevent **restaurants with the same name and rating** from being added.
+4. Restaurants with the same name but **different ratings** are allowed.
 
 ---
 
-# 💻 Tecnologies Utilitzades
+#  Technologies Used
 
 - **Java**
-- **Col·leccions en Java (ArrayList, HashSet, HashMap, ListIterator)**
-- **Lectura i escriptura de fitxers en Java**
-- **Gestió d'iteradors**
-- **Generació de nombres aleatoris**
+- **Collections in Java (ArrayList, HashSet, HashMap, ListIterator)**
+- **Java file reading and writing**
+- **Iterator management**
+- **Random number generation**
 
 ---
 
-# 📋 Requisits
+#  Requirements
 
-Per a executar aquest projecte, es requereix:
+To run this project, you need:
 
-- **JDK 8 o superior**
-- Un entorn de desenvolupament com **IntelliJ IDEA, Eclipse o VS Code** amb extensió per a Java
-- Coneixements bàsics de **Java** i **col·leccions**
-
+- **JDK 8 or higher**
+- A development environment like **IntelliJ IDEA, Eclipse, or VS Code** with Java extension
+- Basic knowledge of **Java** and **collections**
