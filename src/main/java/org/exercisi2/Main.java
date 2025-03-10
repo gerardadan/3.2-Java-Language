@@ -17,8 +17,7 @@ public class Main {
             RestaurantList.addRestaurant(restaurants, "Gestaurant8", 8);
             RestaurantList.addRestaurant(restaurants, "ARestaurant2", 5);
 
-            RestaurantList.sortRestaurant(restaurants);
-            RestaurantList.getRestaurants(restaurants);
+            RestaurantList.getRestaurants(RestaurantList.sortRestaurant(restaurants, false));
 
         } catch (Exception e) {
             System.out.println(e.getMessage());

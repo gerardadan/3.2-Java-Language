@@ -42,6 +42,10 @@ public class Restaurant implements Comparable<Restaurant> {
             result = Integer.compare(other.score, this.score);
         } else{
             result = this.name.compareTo(other.name);
+            if(result > 0)
+                result = 1;
+            else if(result < 0)
+                result = -1;
         }
 
         return result;

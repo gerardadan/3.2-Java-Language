@@ -1,5 +1,7 @@
 package org.utils;
 
+import org.restaurant.Restaurant;
+
 import java.util.*;
 
 public class CollectionsUtils {
@@ -29,10 +31,13 @@ public class CollectionsUtils {
         return hashMap;
     }
 
-    public static <T> TreeSet convertTreeSet(HashSet<T> hashSet){
-        TreeSet<T> treeSet = new TreeSet<>(hashSet);
+    public static <T> TreeSet convertHashSetToTreeSet(HashSet<T> hashSet, boolean isAscending){
 
-        return  treeSet;
+        if(isAscending){
+            return new TreeSet<>(hashSet);
+        } else {
+            return (TreeSet<Restaurant>) new TreeSet<>(hashSet).descendingSet();
+        }
     }
 
 }
